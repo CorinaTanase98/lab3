@@ -24,4 +24,9 @@ public class Car {
         return anFabricatie;
     }
 
+
+
+    public void print(){
+        System.out.println(this.marca + '\n' + this.model + '\n' + this.anFabricatie);
+    }
 }
