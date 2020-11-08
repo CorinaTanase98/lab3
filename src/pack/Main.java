@@ -8,5 +8,7 @@ public class Main {
     {
         System.out.println("Proiect cu masini\n");
         System.out.println("Cea mai smechera reprezentanta");
+        Car c = new Car("Hyundai","Elantra",2017);
+        c.print();
     }
 }
