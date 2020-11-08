@@ -10,5 +10,8 @@ public class Main {
         System.out.println("Cea mai smechera reprezentanta");
         Car c = new Car("Hyundai","Elantra",2017);
         c.print();
+
+        Car c2 = new Car("Hyundai2","Elantra2",2018);
+        c2.print();
     }
 }
