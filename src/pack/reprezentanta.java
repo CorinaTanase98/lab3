@@ -12,5 +12,6 @@ public class reprezentanta {
 
     public int getNumarMasini() {
         return NumarMasini;
+        //returneaza nr de masini
     }
 }
