@@ -4,12 +4,12 @@ public class Car {
 
     private String marca;
     private String model;
-    private int an_fabricatie;
+    private int anFabricatie;
 
-    public Car(String marca, String model, int an_fabricatie) {
+    public Car(String marca, String model, int anFabricatie) {
         this.marca = marca;
         this.model = model;
-        this.an_fabricatie = an_fabricatie;
+        this.anFabricatie = anFabricatie;
     }
 
     public String getMarca() {
@@ -20,8 +20,8 @@ public class Car {
         return model;
     }
 
-    public int getAn_fabricatie() {
-        return an_fabricatie;
+    public int getAnFabricatie() {
+        return anFabricatie;
     }
 
 }
