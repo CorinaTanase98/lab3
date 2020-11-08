@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class reprezentanta {
     private String NumeReprezentanta;
-    private int NumarMasini;
+    private int Numar_Masini;
 
     public String getNumeReprezentanta() {
         return NumeReprezentanta;
